@@ -71,14 +71,8 @@ st.markdown("<h1 style='text-align:center;'>Ricerca posizione KKS</h1>", unsafe_
 # ============================================
 if st.button("📱 Apri versione App"):
     st.markdown(
-        """
-        <script>
-        window.location.href="https://kks-finder-icfywbib38izxjnipgjcd9.streamlit.app/?appmode=true";
-        </script>
-        """,
-        unsafe_allow_html=True
+        "🚀 Clicca qui per aprire la versione App"
     )
-
 # ============================================
 #  FIRMA (solo testo e immagine)
 # ============================================
