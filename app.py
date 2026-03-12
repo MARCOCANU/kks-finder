@@ -69,10 +69,11 @@ st.markdown("<h1 style='text-align:center;'>Ricerca posizione KKS</h1>", unsafe_
 # ============================================
 #  PULSANTE PER APRIRE LA VERSIONE APP
 # ============================================
-if st.button("📱 Apri versione App"):
-    st.markdown(
-        "🚀 Clicca qui per aprire la versione App"
-    )
+st.link_button(
+    "📱  Apri versione App",
+    "https://kks-finder-icfywbib38izxjnipgjcd9.streamlit.app/?appmode=true",
+    use_container_width=True
+)
 # ============================================
 #  FIRMA (solo testo e immagine)
 # ============================================
